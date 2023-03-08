@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scrappers"
+version = "0.1.0"
+description = "'This project encompasses all webscraping'"
+authors = ["Dieinimy Maganha <dieinimy@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.2"
+pymongo = { version = "^3.12.1", extras = ["srv"] }
+notebook = "^6.5.2"
+pandas = "^1.5.3"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
